@@ -1,0 +1,9 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "description": "react project common template ,react family meals",
+  "main": "index.js",
+  "repository": "..",
+  "author": "way",
+  "license": "MIT"
+}
