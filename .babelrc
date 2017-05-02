@@ -1,0 +1,22 @@
+{
+    "presets":[
+        ["es2015",{"modules":false}],
+        //webpack2已经支持原生的import语法
+
+        "stage-0",
+        //stage-0会包含1~3的语法
+
+        "react"
+        //jsx语法 react组件语法
+    ],
+    "plugins":[
+        "transform-async-to-generator",
+        //async和await 已在stage-2中是否考虑这里不添加也可编译
+
+        "transform-decorators-legacy",
+        //decorators装饰器 已在stage-1中是否考虑这里不添加也可编译
+        
+        "react-hot-loader/babel"
+        // 开启react代码的模块热替换(HMR) react-hot-loader中的代码与babel相同规范是否考虑这里不添加也可编译
+    ]
+}
